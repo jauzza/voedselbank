@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.boven-afbeelding, .onder-afbeelding {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-container {
+    margin: 1rem 0;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.menu-icon {
+    text-align: right;
+    width: 100%;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro h1 {
+    color: #f26522;
+    margin-bottom: 0.5rem;
+}
+
+.about,
+.eligibility {
+    margin-bottom: 2rem;
+}
+
+.about h2,
+.eligibility h2 {
+    color: #0f8b8d;
+    margin-bottom: 0.5rem;
+}
+
+.eligibility a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #f26522;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 0.5rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
